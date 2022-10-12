@@ -1,7 +1,1 @@
-# Random Number Guessing Game
-
-
-## Key Takeaways:
-
-
-## Lingering Questions:
+# class-fall22-pd1
