@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class UserName {
     public static void main(String[] args) {
@@ -27,9 +28,23 @@ public class UserName {
     
         public static String initialize(String n) { 
             return n.substring(0, 1);
-    }        
+    }
+    public static String generatePassword(int length) {
+        String password = "";
+        (int)(Math.random()*(90-65+1)+65);
+        //need a loop of len"length"
+        for(int i=o; i<length; i++){
+            
+        }
+        
+        //pull a random number from range (65=90 CAPS) (48-57 #s) (97-122 lower)
+        
+        //convert int to char (c =(char)i;)
+        
+        //append char to the String password (password = password + c)
+        return password;
+    }
 }   
-    
 
   
   // end main method
